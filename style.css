@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(circle, #ac8bfa, #8338ec 60%);
+}
+
+.card {
+  background-color: #f6f3ff;
+  padding: 2rem;
+  text-align: center;
+  max-width: 375px;
+  box-shadow: 8px -8px 0px 0px black;
+}
+
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #6222b5;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: black;
+  font-size: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.7em 1.5em;
+  background-color: #6222b5;
+  color: #dfd6fe;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 4px 4px 0px 0px black;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px black;
+}
+
+.button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #321065;
+}
